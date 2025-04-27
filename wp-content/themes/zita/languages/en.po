@@ -1,0 +1,2147 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Zita\n"
+"POT-Creation-Date: 2018-11-24 11:56+0530\n"
+"PO-Revision-Date: 2018-11-24 11:57+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63 inc/default-string.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer-font-selector/class/class-zita-font-selector.php:42
+#: customizer/section/layout/blog-archive.php:316
+#: customizer/section/layout/blog-single.php:23
+#: customizer/section/layout/container.php:67
+#: customizer/section/layout/container.php:87
+#: customizer/section/layout/container.php:107
+#: customizer/section/layout/sidebar-setting.php:44
+#: customizer/section/layout/sidebar-setting.php:65
+#: customizer/section/layout/sidebar-setting.php:86
+#: customizer/section/typography/base-typography.php:67
+#: customizer/section/typography/base-typography.php:183
+#: customizer/section/typography/base-typography.php:222
+#: customizer/section/typography/base-typography.php:335
+#: customizer/section/typography/base-typography.php:448
+#: customizer/section/typography/base-typography.php:561
+#: customizer/section/typography/base-typography.php:674
+#: customizer/section/typography/base-typography.php:786
+#: inc/woocommerce/customizer/section/layout/single-product.php:26
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:24
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:47
+msgid "Default"
+msgstr ""
+
+#: customizer/customizer-font-selector/class/class-zita-font-selector.php:48
+msgid "Standard Fonts"
+msgstr ""
+
+#: customizer/customizer-font-selector/class/class-zita-font-selector.php:62
+msgid "Google Fonts"
+msgstr ""
+
+#: customizer/extend-customizer/class-zita-wp-customize-section.php:50
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: customizer/extend-customizer/class-zita-wp-customize-section.php:52
+msgid "Customizing"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:15
+#: customizer/section/layout/above-footer.php:23
+#: customizer/section/layout/above-header.php:21
+#: customizer/section/layout/bottom-footer.php:23
+#: customizer/section/layout/bottom-header.php:22
+#: customizer/section/layout/widget-footer.php:22
+msgid "Layout"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:19
+msgid "Container"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:24
+msgid "Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:30
+#: lib/page-meta-box/zita-page-meta-box.php:36
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:36
+msgid "Blog"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:42
+msgid "Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:49
+msgid "Above Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:57
+msgid "Main Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:65
+msgid "Below Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:73
+#: lib/theme-option/class-zita-admin-settings.php:621
+msgid "Sticky Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:81
+#: lib/page-meta-box/zita-page-meta-box.php:123
+msgid "Transparent Header"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:91
+msgid "Blog/Archive"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:101
+msgid "Single Post"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:111
+#: lib/theme-option/class-zita-admin-settings.php:498
+msgid "Social Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:119
+#: customizer/section/layout/above-footer.php:60
+#: customizer/section/layout/above-footer.php:147
+#: customizer/section/layout/above-footer.php:231
+#: customizer/section/layout/above-header.php:56
+#: customizer/section/layout/above-header.php:142
+#: customizer/section/layout/above-header.php:228
+#: customizer/section/layout/bottom-footer.php:60
+#: customizer/section/layout/bottom-footer.php:147
+#: customizer/section/layout/bottom-footer.php:231
+#: customizer/section/layout/bottom-header.php:57
+#: customizer/section/layout/bottom-header.php:144
+#: customizer/section/layout/bottom-header.php:231
+#: customizer/section/layout/main-header.php:79
+#: inc/woocommerce/woocommerce-common-function.php:169
+#: lib/theme-option/class-zita-admin-settings.php:518
+msgid "Search"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:124
+msgid "Search Icon"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:130
+msgid "Search Box"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:137
+msgid "Footer Widget"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:145
+msgid "Bottom Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:156
+msgid "Above Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:164
+msgid "Widget Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:172
+msgid "Below Footer"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:182
+msgid "Scroll To Top"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:195
+msgid "Color & Background"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:199
+msgid "Global Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:205
+msgid "Hamburger Colors"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:214
+#: lib/theme-option/class-zita-admin-settings.php:463
+#: lib/theme-option/class-zita-admin-settings.php:542
+msgid "Typography"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:220
+#: lib/theme-option/class-zita-admin-settings.php:503
+msgid "Site Button"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:227
+#: lib/theme-option/class-zita-admin-settings.php:493
+msgid "Pre Loader"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:234
+msgid "Font Subset"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:240
+msgid "Base Typography"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:246
+msgid "Body"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:253
+#: inc/woocommerce/customizer/section/layout/shop-page.php:48
+#: inc/woocommerce/customizer/section/layout/single-product.php:97
+msgid "Title"
+msgstr ""
+
+#: customizer/register-panels-and-sections.php:260
+msgid "Content"
+msgstr ""
+
+#: customizer/section/color/gloabal_color_background.php:21
+msgid "Theme Color"
+msgstr ""
+
+#: customizer/section/color/gloabal_color_background.php:36
+msgid "Link Color"
+msgstr ""
+
+#: customizer/section/color/gloabal_color_background.php:51
+msgid "Link Hover Color"
+msgstr ""
+
+#: customizer/section/color/gloabal_color_background.php:66
+msgid "Text Color"
+msgstr ""
+
+#: customizer/section/color/gloabal_color_background.php:81
+msgid "Title Color"
+msgstr ""
+
+#: customizer/section/color/gloabal_color_background.php:112
+#: customizer/section/layout/above-footer.php:402
+#: customizer/section/layout/above-header.php:420
+#: customizer/section/layout/blog-archive.php:355
+#: customizer/section/layout/blog-single.php:203
+#: customizer/section/layout/bottom-footer.php:401
+#: customizer/section/layout/bottom-header.php:424
+#: customizer/section/layout/button.php:106
+#: customizer/section/layout/container.php:125
+#: customizer/section/layout/loader.php:60
+#: customizer/section/layout/main-header.php:296
+#: customizer/section/layout/scroll-to-top.php:138
+#: customizer/section/layout/search.php:309
+#: customizer/section/layout/search.php:322
+#: customizer/section/layout/sidebar-setting.php:132
+#: customizer/section/layout/social-icon.php:161
+#: customizer/section/layout/sticky-header.php:46
+#: customizer/section/layout/widget-footer.php:133
+#: customizer/section/typography/base-typography.php:877
+#: customizer/section/typography/base-typography.php:891
+#: customizer/site-identity-customizer.php:101
+#: inc/woocommerce/customizer/section/layout/shop-page.php:137
+#: inc/woocommerce/customizer/section/layout/single-product.php:300
+#, php-format
+msgid "To know more Go with this <a target=\"_blank\" href=\"%s\">Doc</a> !"
+msgstr ""
+
+#: customizer/section/color/hamburger_color.php:18
+#: customizer/section/layout/loader.php:30
+msgid "Background Color"
+msgstr ""
+
+#: customizer/section/color/hamburger_color.php:32
+#: customizer/section/layout/above-footer.php:359
+#: customizer/section/layout/above-header.php:359
+#: customizer/section/layout/bottom-footer.php:359
+#: customizer/section/layout/bottom-header.php:363
+#: customizer/section/layout/search.php:279
+msgid "Border Color"
+msgstr ""
+
+#: customizer/section/color/hamburger_color.php:46
+#: customizer/section/layout/scroll-to-top.php:75
+#: customizer/section/layout/search.php:67
+#: customizer/section/layout/search.php:293
+msgid "Icon Color"
+msgstr ""
+
+#: customizer/section/color/hamburger_color.php:63
+#: customizer/section/layout/search.php:175
+msgid "Border Radius"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:53
+#: customizer/section/layout/above-header.php:49
+#: customizer/section/layout/bottom-footer.php:53
+#: customizer/section/layout/bottom-header.php:50
+msgid "Column 1"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:57
+#: customizer/section/layout/above-footer.php:144
+#: customizer/section/layout/above-footer.php:228
+#: customizer/section/layout/above-header.php:53
+#: customizer/section/layout/above-header.php:139
+#: customizer/section/layout/above-header.php:225
+#: customizer/section/layout/bottom-footer.php:57
+#: customizer/section/layout/bottom-footer.php:144
+#: customizer/section/layout/bottom-footer.php:228
+#: customizer/section/layout/bottom-header.php:54
+#: customizer/section/layout/bottom-header.php:141
+#: customizer/section/layout/bottom-header.php:228
+#: customizer/section/layout/main-header.php:77
+#: customizer/section/typography/base-typography.php:68
+#: customizer/section/typography/base-typography.php:184
+#: customizer/section/typography/base-typography.php:223
+#: customizer/section/typography/base-typography.php:336
+#: customizer/section/typography/base-typography.php:449
+#: customizer/section/typography/base-typography.php:562
+#: customizer/section/typography/base-typography.php:675
+#: customizer/section/typography/base-typography.php:787
+#: inc/woocommerce/customizer/section/layout/shop-page.php:28
+msgid "None"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:58
+#: customizer/section/layout/above-footer.php:74
+#: customizer/section/layout/above-footer.php:145
+#: customizer/section/layout/above-footer.php:160
+#: customizer/section/layout/above-footer.php:229
+#: customizer/section/layout/above-footer.php:244
+#: customizer/section/layout/above-header.php:54
+#: customizer/section/layout/above-header.php:71
+#: customizer/section/layout/above-header.php:140
+#: customizer/section/layout/above-header.php:157
+#: customizer/section/layout/above-header.php:226
+#: customizer/section/layout/above-header.php:244
+#: customizer/section/layout/bottom-footer.php:58
+#: customizer/section/layout/bottom-footer.php:74
+#: customizer/section/layout/bottom-footer.php:145
+#: customizer/section/layout/bottom-footer.php:160
+#: customizer/section/layout/bottom-footer.php:229
+#: customizer/section/layout/bottom-footer.php:244
+#: customizer/section/layout/bottom-header.php:55
+#: customizer/section/layout/bottom-header.php:73
+#: customizer/section/layout/bottom-header.php:142
+#: customizer/section/layout/bottom-header.php:159
+#: customizer/section/layout/bottom-header.php:229
+#: customizer/section/layout/bottom-header.php:246
+#: customizer/section/layout/main-header.php:78
+#: customizer/section/layout/main-header.php:93
+msgid "Text"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:59
+#: customizer/section/layout/above-footer.php:146
+#: customizer/section/layout/above-footer.php:230
+#: customizer/section/layout/above-header.php:55
+#: customizer/section/layout/above-header.php:141
+#: customizer/section/layout/above-header.php:227
+#: customizer/section/layout/bottom-footer.php:59
+#: customizer/section/layout/bottom-footer.php:146
+#: customizer/section/layout/bottom-footer.php:230
+#: customizer/section/layout/bottom-header.php:56
+#: customizer/section/layout/bottom-header.php:143
+#: customizer/section/layout/bottom-header.php:230
+msgid "Menu"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:61
+#: customizer/section/layout/above-footer.php:148
+#: customizer/section/layout/above-footer.php:232
+#: customizer/section/layout/above-header.php:57
+#: customizer/section/layout/above-header.php:143
+#: customizer/section/layout/above-header.php:229
+#: customizer/section/layout/bottom-footer.php:61
+#: customizer/section/layout/bottom-footer.php:148
+#: customizer/section/layout/bottom-footer.php:232
+#: customizer/section/layout/bottom-header.php:58
+#: customizer/section/layout/bottom-header.php:145
+#: customizer/section/layout/bottom-header.php:232
+#: customizer/section/layout/main-header.php:80
+msgid "Widget"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:62
+#: customizer/section/layout/above-footer.php:149
+#: customizer/section/layout/above-footer.php:233
+#: customizer/section/layout/above-header.php:58
+#: customizer/section/layout/above-header.php:144
+#: customizer/section/layout/above-header.php:230
+#: customizer/section/layout/bottom-footer.php:62
+#: customizer/section/layout/bottom-footer.php:149
+#: customizer/section/layout/bottom-footer.php:233
+#: customizer/section/layout/bottom-header.php:59
+#: customizer/section/layout/bottom-header.php:146
+#: customizer/section/layout/bottom-header.php:233
+#: customizer/section/layout/main-header.php:81
+msgid "Social Media"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:67
+#: customizer/section/layout/above-footer.php:154
+#: customizer/section/layout/above-footer.php:238
+#: customizer/section/layout/above-header.php:64
+#: customizer/section/layout/above-header.php:150
+#: customizer/section/layout/above-header.php:237
+#: customizer/section/layout/bottom-footer.php:154
+#: customizer/section/layout/bottom-footer.php:238
+#: customizer/section/layout/bottom-header.php:66
+#: customizer/section/layout/bottom-header.php:152
+#: customizer/section/layout/bottom-header.php:239
+#: customizer/section/layout/main-header.php:87 inc/footer-function.php:57
+#: inc/footer-function.php:97 inc/footer-function.php:136
+#: inc/footer-function.php:258 inc/footer-function.php:297
+#: inc/header-function.php:225 inc/header-function.php:281
+#: inc/header-function.php:338 inc/header-function.php:438
+#: inc/header-function.php:494 inc/header-function.php:543
+msgid "Add your content here"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:90
+#: customizer/section/layout/above-footer.php:176
+#: customizer/section/layout/above-footer.php:277
+#: customizer/section/layout/above-header.php:87
+#: customizer/section/layout/above-header.php:190
+#: customizer/section/layout/above-header.php:294
+#: customizer/section/layout/bottom-footer.php:90
+#: customizer/section/layout/bottom-footer.php:176
+#: customizer/section/layout/bottom-footer.php:277
+#: customizer/section/layout/bottom-header.php:89
+#: customizer/section/layout/bottom-header.php:176
+#: customizer/section/layout/bottom-header.php:281
+#: customizer/section/layout/main-header.php:109
+#: customizer/section/layout/widget-footer.php:70
+msgid "Go To Widget"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:107
+#: customizer/section/layout/above-footer.php:193
+#: customizer/section/layout/above-footer.php:294
+#: customizer/section/layout/above-header.php:104
+#: customizer/section/layout/above-header.php:173
+#: customizer/section/layout/above-header.php:277
+#: customizer/section/layout/bottom-footer.php:107
+#: customizer/section/layout/bottom-footer.php:193
+#: customizer/section/layout/bottom-footer.php:294
+#: customizer/section/layout/bottom-header.php:106
+#: customizer/section/layout/bottom-header.php:193
+#: customizer/section/layout/bottom-header.php:298
+msgid "Go To Menu"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:124
+#: customizer/section/layout/above-footer.php:210
+#: customizer/section/layout/above-footer.php:260
+#: customizer/section/layout/above-header.php:121
+#: customizer/section/layout/above-header.php:207
+#: customizer/section/layout/above-header.php:260
+#: customizer/section/layout/bottom-footer.php:124
+#: customizer/section/layout/bottom-footer.php:210
+#: customizer/section/layout/bottom-footer.php:260
+#: customizer/section/layout/bottom-header.php:123
+#: customizer/section/layout/bottom-header.php:210
+#: customizer/section/layout/bottom-header.php:264
+#: customizer/section/layout/main-header.php:126
+msgid "Go To Social Media"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:140
+#: customizer/section/layout/above-header.php:135
+#: customizer/section/layout/bottom-footer.php:140
+#: customizer/section/layout/bottom-header.php:137
+msgid "Column 2"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:224
+#: customizer/section/layout/above-header.php:221
+#: customizer/section/layout/bottom-footer.php:224
+#: customizer/section/layout/bottom-header.php:224
+msgid "Column 3"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:314
+#: customizer/section/layout/above-header.php:314
+#: customizer/section/layout/bottom-footer.php:314
+#: customizer/section/layout/bottom-header.php:318
+#: customizer/section/layout/search.php:152
+msgid "Height"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:338
+#: customizer/section/layout/above-header.php:338
+#: customizer/section/layout/bottom-header.php:342
+msgid "Bottom Border"
+msgstr ""
+
+#: customizer/section/layout/above-footer.php:376
+#: customizer/section/layout/above-header.php:394
+#: customizer/section/layout/bottom-footer.php:376
+#: customizer/section/layout/bottom-header.php:398
+#: customizer/section/layout/main-header.php:268
+#: customizer/section/layout/widget-footer.php:107
+msgid "Choose Color Scheme"
+msgstr ""
+
+#: customizer/section/layout/above-header.php:374
+#: customizer/section/layout/bottom-header.php:378
+msgid "Mobile Header Alignment"
+msgstr ""
+
+#: customizer/section/layout/above-header.php:378
+#: customizer/section/layout/bottom-header.php:382
+#: customizer/section/layout/main-header.php:252
+msgid "Inline"
+msgstr ""
+
+#: customizer/section/layout/above-header.php:379
+#: customizer/section/layout/bottom-header.php:383
+#: customizer/section/layout/main-header.php:253
+msgid "Stack"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:22
+#: customizer/section/layout/sidebar-setting.php:61
+msgid "Blog Layout"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:45
+msgid "Grid Layout"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:49
+msgid "One Column"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:50
+msgid "Two Column"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:51
+msgid "Three Column"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:52
+msgid "Four Column"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:62
+msgid "Make First Post Large"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:75
+msgid "Add Space Between Post"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:87
+msgid "Remove Featured Image Space\n"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:100
+msgid "Enable Date Box"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:114
+msgid "Blog Date"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:118
+#: inc/woocommerce/customizer/section/layout/general-sale-badges.php:25
+msgid "Square"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:119
+#: inc/woocommerce/customizer/section/layout/general-sale-badges.php:24
+msgid "Circle"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:120
+#: inc/woocommerce/customizer/section/layout/general-sale-badges.php:26
+msgid "Diamond"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:130
+#: customizer/section/layout/blog-single.php:121
+msgid "Enable Drop Cap"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:146
+msgid "Blog Post Content"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:150
+msgid "Full Content"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:151
+msgid "Excerpt Content"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:152
+msgid "No Content"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:166
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:186
+msgid "Read More Text"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:198
+msgid "Display Read More as Button"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:214
+msgid "Post Pagination"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:218
+msgid "Numbered"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:219
+msgid "Load More"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:220
+msgid "Infinite Scroll"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:234
+msgid "Load More Text"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:253
+msgid "Blog Structure"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:255
+msgid "Featured Image"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:256
+#: customizer/section/layout/blog-single.php:68
+msgid "Post Title & Meta"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:275
+msgid "Blog Meta"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:277
+#: customizer/section/layout/blog-single.php:89
+msgid "Comments"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:278
+#: customizer/section/layout/blog-single.php:90
+#: customizer/section/layout/blog-single.php:188
+#: inc/woocommerce/customizer/section/layout/shop-page.php:52
+msgid "Category"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:279
+#: customizer/section/layout/blog-single.php:91
+msgid "Author"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:280
+#: customizer/section/layout/blog-single.php:92
+msgid "Publish Date"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:296
+msgid "Post Meta Separator"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:312
+msgid "Blog Content Width"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:317
+#: customizer/section/layout/blog-single.php:24
+#: inc/woocommerce/customizer/section/layout/single-product.php:27
+msgid "Custom"
+msgstr ""
+
+#: customizer/section/layout/blog-archive.php:332
+msgid "Enter Width in px"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:19
+msgid "Single Post Content Width"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:39
+#: inc/woocommerce/customizer/section/layout/single-product.php:51
+msgid "Enter Width"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:65
+msgid "Single Post Structure"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:67
+msgid "Feature Image"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:87
+msgid "Single Post Meta"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:108
+msgid "Single Post Meta Separator"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:133
+msgid "Remove Featured Image Padding"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:145
+msgid "Enable Share Icon"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:157
+msgid "Display Author Info"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:169
+msgid "Display Related Post"
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:184
+msgid "Related Post "
+msgstr ""
+
+#: customizer/section/layout/blog-single.php:189
+msgid "Tag"
+msgstr ""
+
+#: customizer/section/layout/bottom-footer.php:67 inc/footer-function.php:219
+msgid "Copyright | Zita | Powered by Zita"
+msgstr ""
+
+#: customizer/section/layout/bottom-footer.php:338
+msgid "Top Border"
+msgstr ""
+
+#: customizer/section/layout/button.php:18
+msgid "Button Text Color"
+msgstr ""
+
+#: customizer/section/layout/button.php:34
+msgid "Button Background Color"
+msgstr ""
+
+#: customizer/section/layout/button.php:49
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: customizer/section/layout/button.php:64
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: customizer/section/layout/button.php:84
+msgid "Button Border Radius"
+msgstr ""
+
+#: customizer/section/layout/container.php:22
+msgid "Container Width"
+msgstr ""
+
+#: customizer/section/layout/container.php:43
+msgid "Default Container"
+msgstr ""
+
+#: customizer/section/layout/container.php:47
+#: customizer/section/layout/container.php:68
+#: customizer/section/layout/container.php:88
+#: customizer/section/layout/container.php:108
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:25
+#: lib/page-meta-box/zita-page-meta-box.php:54
+msgid "Boxed"
+msgstr ""
+
+#: customizer/section/layout/container.php:48
+#: customizer/section/layout/container.php:69
+#: customizer/section/layout/container.php:89
+#: customizer/section/layout/container.php:109
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:26
+#: lib/page-meta-box/zita-page-meta-box.php:55
+msgid "Content Boxed"
+msgstr ""
+
+#: customizer/section/layout/container.php:49
+#: customizer/section/layout/container.php:70
+#: customizer/section/layout/container.php:90
+#: customizer/section/layout/container.php:110
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:27
+#: lib/page-meta-box/zita-page-meta-box.php:56
+msgid "Full Width/Contained"
+msgstr ""
+
+#: customizer/section/layout/container.php:50
+#: customizer/section/layout/container.php:71
+#: customizer/section/layout/container.php:91
+#: customizer/section/layout/container.php:111
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:28
+msgid "Full Width/Stretched"
+msgstr ""
+
+#: customizer/section/layout/container.php:63
+msgid "Container For Page"
+msgstr ""
+
+#: customizer/section/layout/container.php:83
+msgid "Container For Blog / Archives"
+msgstr ""
+
+#: customizer/section/layout/container.php:103
+msgid "Container For Blog Single"
+msgstr ""
+
+#: customizer/section/layout/loader.php:15
+msgid "Enable Loader"
+msgstr ""
+
+#: customizer/section/layout/loader.php:45
+msgid "Pre Loader Image"
+msgstr ""
+
+#: customizer/section/layout/loader.php:46
+msgid "(You can also use GIF image.)"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:22
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:60
+msgid "Disable Menu"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:73
+msgid "Last Menu Item"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:82
+msgid "Button"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:141
+msgid "Button Text"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:153
+msgid "Button Url"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:171
+msgid "Bottom Border Size"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:192
+msgid "Bottom Border Color"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:203
+msgid "Enable Full Width Header"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:217
+msgid "Mobile Menu Open"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:221
+#: customizer/section/layout/scroll-to-top.php:35
+#: inc/woocommerce/customizer/section/layout/shop-page.php:71
+#: inc/woocommerce/customizer/section/layout/single-product.php:75
+msgid "Left"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:222
+#: inc/woocommerce/customizer/section/layout/shop-page.php:72
+#: inc/woocommerce/customizer/section/layout/single-product.php:76
+msgid "center"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:223
+#: customizer/section/layout/scroll-to-top.php:36
+#: inc/woocommerce/customizer/section/layout/shop-page.php:73
+#: inc/woocommerce/customizer/section/layout/single-product.php:77
+msgid "Right"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:235
+msgid "Menu Label on Small Device"
+msgstr ""
+
+#: customizer/section/layout/main-header.php:248
+msgid "Menu Alignment"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top.php:17
+msgid "Disable Scroll To Top"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top.php:31
+msgid "Position"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top.php:52
+#: customizer/section/layout/search.php:46
+msgid "Icon Radius"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top.php:91
+#: customizer/section/layout/search.php:109
+msgid "Icon Background Color"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top.php:106
+#: customizer/section/layout/search.php:95
+msgid "Icon Hover Color"
+msgstr ""
+
+#: customizer/section/layout/scroll-to-top.php:121
+msgid "Icon Background Hover Color"
+msgstr ""
+
+#: customizer/section/layout/search.php:22
+msgid "Icon Font Size"
+msgstr ""
+
+#: customizer/section/layout/search.php:81
+msgid "Icon Border Color"
+msgstr ""
+
+#: customizer/section/layout/search.php:129
+msgid "Width"
+msgstr ""
+
+#: customizer/section/layout/search.php:199
+msgid "Placeholder Font Size"
+msgstr ""
+
+#: customizer/section/layout/search.php:220
+msgid "Icon Size"
+msgstr ""
+
+#: customizer/section/layout/search.php:234
+msgid "Search.."
+msgstr ""
+
+#: customizer/section/layout/search.php:240
+msgid "Placeholder Text"
+msgstr ""
+
+#: customizer/section/layout/search.php:253
+msgid "Search Box Background Color"
+msgstr ""
+
+#: customizer/section/layout/search.php:266
+msgid "Placeholder Text Color"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:20
+msgid "Default Layout"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:24
+#: customizer/section/layout/sidebar-setting.php:45
+#: customizer/section/layout/sidebar-setting.php:66
+#: customizer/section/layout/sidebar-setting.php:87
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:48
+#: lib/page-meta-box/zita-page-meta-box.php:44
+msgid "No Sidebar"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:25
+#: customizer/section/layout/sidebar-setting.php:46
+#: customizer/section/layout/sidebar-setting.php:67
+#: customizer/section/layout/sidebar-setting.php:88
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:49
+#: lib/page-meta-box/zita-page-meta-box.php:42
+msgid "Left Sidebar"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:26
+#: customizer/section/layout/sidebar-setting.php:47
+#: customizer/section/layout/sidebar-setting.php:68
+#: customizer/section/layout/sidebar-setting.php:89
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:50
+#: lib/page-meta-box/zita-page-meta-box.php:43
+msgid "Right Sidebar"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:40
+msgid "Page Layout"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:82
+msgid "Blog Post Archives"
+msgstr ""
+
+#: customizer/section/layout/sidebar-setting.php:108
+msgid "Sidebar Width (%)"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:16
+msgid "Facebook URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:28
+msgid "Google+ URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:40
+msgid "LinkedIn URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:52
+msgid "Pinterest URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:65
+msgid "Twitter URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:77
+msgid "Instagram URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:89
+msgid "Tumblr URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:101
+msgid "Youtube URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:113
+msgid "Stumbleupon URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:125
+msgid "Dribble URL"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:138
+msgid "Setting"
+msgstr ""
+
+#: customizer/section/layout/social-icon.php:146
+msgid "Show Original Color"
+msgstr ""
+
+#: customizer/section/layout/sticky-header.php:17
+msgid "Enable Header Transparent\n"
+msgstr ""
+
+#: customizer/section/layout/sticky-header.php:30
+msgid "Disable transparent header for Special pages"
+msgstr ""
+
+#: customizer/section/layout/sticky-header.php:31
+msgid "(like archive,404,search,shop, product page etc.)"
+msgstr ""
+
+#: customizer/section/layout/widget-footer.php:86
+msgid "Widget Width"
+msgstr ""
+
+#: customizer/section/layout/widget-footer.php:90
+#: inc/woocommerce/customizer/section/layout/single-product.php:22
+msgid "Content Width"
+msgstr ""
+
+#: customizer/section/layout/widget-footer.php:91
+msgid "Full Width"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:20
+msgid "Font Subsets"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:47
+#: customizer/section/typography/base-typography.php:163
+msgid "Font family"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:63
+#: customizer/section/typography/base-typography.php:179
+#: customizer/section/typography/base-typography.php:218
+#: customizer/section/typography/base-typography.php:331
+#: customizer/section/typography/base-typography.php:444
+#: customizer/section/typography/base-typography.php:557
+#: customizer/section/typography/base-typography.php:670
+#: customizer/section/typography/base-typography.php:782
+msgid "Text Transform"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:69
+#: customizer/section/typography/base-typography.php:185
+#: customizer/section/typography/base-typography.php:224
+#: customizer/section/typography/base-typography.php:337
+#: customizer/section/typography/base-typography.php:450
+#: customizer/section/typography/base-typography.php:563
+#: customizer/section/typography/base-typography.php:676
+#: customizer/section/typography/base-typography.php:788
+msgid "Capitalize"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:70
+#: customizer/section/typography/base-typography.php:186
+#: customizer/section/typography/base-typography.php:225
+#: customizer/section/typography/base-typography.php:338
+#: customizer/section/typography/base-typography.php:451
+#: customizer/section/typography/base-typography.php:564
+#: customizer/section/typography/base-typography.php:677
+#: customizer/section/typography/base-typography.php:789
+msgid "Uppercase"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:71
+#: customizer/section/typography/base-typography.php:187
+#: customizer/section/typography/base-typography.php:226
+#: customizer/section/typography/base-typography.php:339
+#: customizer/section/typography/base-typography.php:452
+#: customizer/section/typography/base-typography.php:565
+#: customizer/section/typography/base-typography.php:678
+#: customizer/section/typography/base-typography.php:790
+msgid "Lowercase"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:88
+#: customizer/section/typography/base-typography.php:240
+#: customizer/section/typography/base-typography.php:353
+#: customizer/section/typography/base-typography.php:466
+#: customizer/section/typography/base-typography.php:579
+#: customizer/section/typography/base-typography.php:692
+#: customizer/section/typography/base-typography.php:804
+msgid "Font-Size"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:112
+#: customizer/section/typography/base-typography.php:263
+#: customizer/section/typography/base-typography.php:376
+#: customizer/section/typography/base-typography.php:489
+#: customizer/section/typography/base-typography.php:602
+#: customizer/section/typography/base-typography.php:715
+#: customizer/section/typography/base-typography.php:827
+msgid "Line-Height"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:136
+#: customizer/section/typography/base-typography.php:288
+#: customizer/section/typography/base-typography.php:401
+#: customizer/section/typography/base-typography.php:514
+#: customizer/section/typography/base-typography.php:627
+#: customizer/section/typography/base-typography.php:740
+#: customizer/section/typography/base-typography.php:852
+msgid "Letter-Spacing"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:203
+msgid "H1"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:315
+msgid "H2"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:428
+msgid "H3"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:541
+msgid "H4"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:654
+msgid "H5"
+msgstr ""
+
+#: customizer/section/typography/base-typography.php:767
+msgid "H6"
+msgstr ""
+
+#: customizer/site-identity-customizer.php:27
+msgid "Retina Logo"
+msgstr ""
+
+#: customizer/site-identity-customizer.php:39
+msgid "Display Site Title"
+msgstr ""
+
+#: customizer/site-identity-customizer.php:54
+msgid "Display Tagline"
+msgstr ""
+
+#: customizer/site-identity-customizer.php:75
+msgid "Logo Width"
+msgstr ""
+
+#: functions.php:97
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:99
+msgid "Add widgets here to appear in your primary sidebar."
+msgstr ""
+
+#: functions.php:106
+msgid "Above Header First Widget"
+msgstr ""
+
+#: functions.php:108 functions.php:117 functions.php:126
+msgid "Add widgets here to appear in top header."
+msgstr ""
+
+#: functions.php:115
+msgid "Above Header Second Widget"
+msgstr ""
+
+#: functions.php:124
+msgid "Above Header Third Widget"
+msgstr ""
+
+#: functions.php:133
+msgid "Below Header First Widget"
+msgstr ""
+
+#: functions.php:135 functions.php:144 functions.php:153
+msgid "Add widgets here to appear in below header."
+msgstr ""
+
+#: functions.php:142
+msgid "Below Header Second Widget"
+msgstr ""
+
+#: functions.php:151
+msgid "Below Header Third Widget"
+msgstr ""
+
+#: functions.php:160
+msgid "Main Header Widget"
+msgstr ""
+
+#: functions.php:162
+msgid "Add widgets here to appear in main header."
+msgstr ""
+
+#: functions.php:169
+msgid "Footer Top First Widget"
+msgstr ""
+
+#: functions.php:171 functions.php:180 functions.php:189
+msgid "Add widgets here to appear in Top Footer"
+msgstr ""
+
+#: functions.php:178
+msgid "Footer Top Second Widget"
+msgstr ""
+
+#: functions.php:187
+msgid "Footer Top Third Widget"
+msgstr ""
+
+#: functions.php:196
+msgid "Footer Below First Widget"
+msgstr ""
+
+#: functions.php:198 functions.php:207
+msgid "Add widgets here to appear in below footer"
+msgstr ""
+
+#: functions.php:205
+msgid "Footer Below Second Widget"
+msgstr ""
+
+#: functions.php:214
+msgid "Footer Below Third Widget"
+msgstr ""
+
+#: functions.php:216
+msgid "Add widgets here to appear in below Footer"
+msgstr ""
+
+#: functions.php:224
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#: inc/admin-function.php:37
+msgid "Main"
+msgstr ""
+
+#: inc/admin-function.php:38
+msgid "Header Above Menu"
+msgstr ""
+
+#: inc/admin-function.php:39
+msgid "Header Below Menu"
+msgstr ""
+
+#: inc/admin-function.php:40
+msgid "Footer Above Menu"
+msgstr ""
+
+#: inc/admin-function.php:41
+msgid "Footer Below Menu"
+msgstr ""
+
+#: inc/blog-function.php:67
+msgid " min "
+msgstr ""
+
+#: inc/blog-function.php:68
+msgid " read "
+msgstr ""
+
+#: inc/blog-function.php:188
+msgid "Read More &raquo;"
+msgstr ""
+
+#: inc/blog-function.php:268 inc/blog-function.php:294
+msgid ", "
+msgstr ""
+
+#: inc/blog-function.php:499
+msgid "More Post"
+msgstr ""
+
+#: inc/default-string.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: inc/default-string.php:32
+msgid "It looks like the link pointing here was faulty. Maybe try searching?"
+msgstr ""
+
+#: inc/default-string.php:35 template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/default-string.php:36 template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/default-string.php:37
+msgid "Start typing and press enter to search"
+msgstr ""
+
+#: inc/default-string.php:38 inc/default-string.php:39
+msgid "Start Typing&hellip;"
+msgstr ""
+
+#: inc/default-string.php:40
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/default-string.php:43
+msgid "Reply"
+msgstr ""
+
+#: inc/default-string.php:44
+msgid "Edit"
+msgstr ""
+
+#: inc/default-string.php:45
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/default-string.php:46 inc/default-string.php:61
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/default-string.php:47
+msgid "Cancel Reply"
+msgstr ""
+
+#: inc/default-string.php:48
+msgid "Post Comment &raquo;"
+msgstr ""
+
+#: inc/default-string.php:49
+msgid "Type here.."
+msgstr ""
+
+#: inc/default-string.php:50
+msgid "Name*"
+msgstr ""
+
+#: inc/default-string.php:51
+msgid "Email*"
+msgstr ""
+
+#: inc/default-string.php:52
+msgid "Website"
+msgstr ""
+
+#: inc/default-string.php:54
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/default-string.php:55
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/default-string.php:56
+msgid "Older Comments"
+msgstr ""
+
+#: inc/default-string.php:59 inc/default-string.php:68
+#: template-parts/content-page.php:23 template-parts/content-post.php:33
+msgid "Pages:"
+msgstr ""
+
+#: inc/default-string.php:60
+msgid "By "
+msgstr ""
+
+#: inc/default-string.php:62
+msgid "1 Comment"
+msgstr ""
+
+#: inc/default-string.php:63
+msgid "% Comments"
+msgstr ""
+
+#: inc/default-string.php:64
+msgid "Next Page"
+msgstr ""
+
+#: inc/default-string.php:65
+msgid "Previous Page"
+msgstr ""
+
+#: inc/default-string.php:70
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: inc/default-string.php:72
+#, php-format
+msgid "Previous %s"
+msgstr ""
+
+#: inc/default-string.php:75 template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/footer-function.php:65 inc/footer-function.php:104
+#: inc/footer-function.php:143 inc/footer-function.php:226
+#: inc/footer-function.php:265 inc/footer-function.php:304
+msgid "Assign footer menu"
+msgstr ""
+
+#: inc/footer-function.php:78 inc/footer-function.php:117
+#: inc/footer-function.php:156 inc/footer-function.php:239
+#: inc/footer-function.php:278 inc/footer-function.php:317
+#: inc/footer-function.php:346 inc/footer-function.php:354
+#: inc/footer-function.php:360 inc/footer-function.php:368
+#: inc/footer-function.php:374 inc/footer-function.php:380
+#: inc/footer-function.php:388 inc/footer-function.php:394
+#: inc/footer-function.php:400 inc/footer-function.php:406
+#: inc/footer-function.php:414 inc/footer-function.php:420
+#: inc/footer-function.php:426 inc/footer-function.php:434
+#: inc/footer-function.php:440 inc/footer-function.php:446
+#: inc/footer-function.php:454 inc/footer-function.php:460
+#: inc/footer-function.php:468 inc/footer-function.php:474
+#: inc/header-function.php:261 inc/header-function.php:317
+#: inc/header-function.php:374 inc/header-function.php:475
+#: inc/header-function.php:524 inc/header-function.php:573
+msgid "Add Widget"
+msgstr ""
+
+#: inc/header-function.php:248 inc/header-function.php:304
+#: inc/header-function.php:361
+msgid "Assign Above header menu"
+msgstr ""
+
+#: inc/header-function.php:462 inc/header-function.php:511
+#: inc/header-function.php:560
+msgid "Assign Bottom Header Menu"
+msgstr ""
+
+#: inc/header-function.php:647 inc/header-function.php:713
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: inc/header-function.php:648 inc/header-function.php:714 searchform.php:12
+msgctxt "text"
+msgid "Search"
+msgstr ""
+
+#: inc/pagination/pagination.php:50
+msgid "No More Posts"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:20
+#: inc/woocommerce/customizer/section/layout/cart.php:39
+msgid "Visibility"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:24
+msgid "Display on all devices"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:25
+msgid "Disable in mobile"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:26
+msgid "Disable in all device"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:43
+msgid "Icon"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:44
+msgid "Icon & Total"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:45
+msgid "Icon & Cart Count"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:46
+msgid "Icon & Cart Count & Total"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/cart.php:61
+msgid "Choose Dropdown Color Scheme"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/general-sale-badges.php:20
+msgid "On Sale Badge Style"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:24
+msgid "Product Image Hover Style"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:29
+msgid "Zoom"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:30
+msgid "Swap"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:46
+#: inc/woocommerce/customizer/section/layout/single-product.php:95
+msgid "Product Structure"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:49
+#: inc/woocommerce/customizer/section/layout/single-product.php:98
+msgid "Price"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:50
+#: inc/woocommerce/customizer/section/layout/single-product.php:99
+msgid "Ratings"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:51
+#: inc/woocommerce/customizer/section/layout/single-product.php:100
+msgid "Add To Cart"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:53
+#: inc/woocommerce/customizer/section/layout/single-product.php:101
+msgid "Short Description"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:67
+#: inc/woocommerce/customizer/section/layout/single-product.php:71
+msgid "Product Content Alignment"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:90
+msgid "Product Box shadow"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/shop-page.php:114
+msgid "Product Box shadow on Hover"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:35
+msgid "Force to disable sidebar in single product page."
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:102
+msgid "Meta"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:119
+msgid "Product Description Tab"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:126
+msgid "Display Product Description Tab"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:137
+msgid "Product Tab Layout"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:141
+msgid "Horizontal"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:142
+msgid "Vertical"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:155
+msgid "Up Sell Product"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:163
+msgid "Display up sell product"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:179
+#: inc/woocommerce/customizer/section/layout/single-product.php:252
+msgid "Number Of Column To Show"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:203
+#: inc/woocommerce/customizer/section/layout/single-product.php:276
+msgid "Number Of Product To Show"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:226
+msgid "Related Product"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/single-product.php:234
+msgid "Display Related product"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:20
+msgid "Container For Woocommerce Page"
+msgstr ""
+
+#: inc/woocommerce/customizer/section/layout/woo-layout.php:43
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/woocommerce/register-woocommerce-panels-and-sections.php:16
+msgid "General"
+msgstr ""
+
+#: inc/woocommerce/register-woocommerce-panels-and-sections.php:22
+msgid "On Sale Badge"
+msgstr ""
+
+#: inc/woocommerce/register-woocommerce-panels-and-sections.php:29
+msgid "Cart"
+msgstr ""
+
+#: inc/woocommerce/register-woocommerce-panels-and-sections.php:36
+msgid "Shop Page"
+msgstr ""
+
+#: inc/woocommerce/register-woocommerce-panels-and-sections.php:42
+msgid "Single Product"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-common-function.php:10
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-common-function.php:167
+msgid "Search for:"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-common-function.php:168
+msgid "Product search"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-config.php:102
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-config.php:104
+msgid "Add widgets here to appear in your WooCommerce Sidebar."
+msgstr ""
+
+#: inc/woocommerce/woocommerce-config.php:111
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-config.php:113
+msgid "This sidebar will be used on Single Product page."
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Browse:"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:249
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:250
+msgid "Home"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:251
+msgid "404 Not Found"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:252
+msgid "Archives"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:258
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:260
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:712
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:729
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:746
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:762 lib/breadcrumbs/breadcrumbs.php:791
+#: lib/breadcrumbs/breadcrumbs.php:818 lib/breadcrumbs/breadcrumbs.php:845
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:763 lib/breadcrumbs/breadcrumbs.php:819
+#: lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:764 lib/breadcrumbs/breadcrumbs.php:1194
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:30
+msgid "Zita Setting"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:41
+#: lib/page-meta-box/zita-page-meta-box.php:53
+#: lib/page-meta-box/zita-page-meta-box.php:128
+msgid "Customizer Setting"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:48
+msgid "Content Layout"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:57
+msgid "Full Width/Strectched"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:61
+msgid "Disable section"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:70
+msgid "Disable Above Header"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:77
+msgid "Disable Main Header"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:84
+msgid "Disable Bottom Header"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:91
+msgid "Disable title"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:98
+msgid "Disable Feature Image"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:105
+msgid "Disable Above Footer"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:112
+msgid "Disable Footer Widget Area"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:119
+msgid "Disable Bottom Footer"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:129
+msgid "Enable"
+msgstr ""
+
+#: lib/page-meta-box/zita-page-meta-box.php:130
+msgid "Disable"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:93
+msgid "Zita Options"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: lib/theme-option/class-zita-admin-settings.php:94
+#: lib/theme-option/view-general.php:16
+msgid "Zita"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:127
+msgid "Welcome"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:163
+msgid "Activating Importer Plugin "
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:165
+#: lib/theme-option/class-zita-admin-settings.php:301
+msgid "See Library"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:257
+msgid "Import Starter Site"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:264
+msgid "Starter Site Templates"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:267
+#, php-format
+msgid "Get amazing free libray with zita. As zita offers you  %2$s "
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:276
+msgid ""
+"Just one click and import your favorite site. Enjoy creating your project as "
+"you want."
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:285
+msgid "Activate Importer Plugin"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:294
+msgid "Install Importer Plugin"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:332
+#: lib/theme-option/class-zita-admin-settings.php:536
+#: lib/theme-option/class-zita-admin-settings.php:549
+#: lib/theme-option/class-zita-admin-settings.php:562
+#: lib/theme-option/class-zita-admin-settings.php:575
+#: lib/theme-option/class-zita-admin-settings.php:589
+#: lib/theme-option/class-zita-admin-settings.php:602
+#: lib/theme-option/class-zita-admin-settings.php:615
+#: lib/theme-option/class-zita-admin-settings.php:628
+#: lib/theme-option/class-zita-admin-settings.php:643
+#: lib/theme-option/class-zita-admin-settings.php:656
+#: lib/theme-option/class-zita-admin-settings.php:669
+#: lib/theme-option/class-zita-admin-settings.php:682
+#: lib/theme-option/class-zita-admin-settings.php:697
+#: lib/theme-option/class-zita-admin-settings.php:711
+msgid "Learn More"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:336
+msgid ""
+"Want to know how it works, take a look on this and get whole knowledge about "
+"Zita. Learn Zita"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:340
+msgid "Visit Us"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:369
+#, php-format
+msgid "%1$s Community"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:379
+msgid ""
+"Join the community of generous Zita users.  Get connected, share opinion, "
+"ask questions and Help each other!"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:386
+msgid "Join Our Facebook Group"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:410
+msgid "Customer Support"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:417
+msgid ""
+"We start with what the customer needs and we work backwards. You're "
+"absolutely free to contact us and zita team will be happy to help you."
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:424
+msgid "Submit a Ticket"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:446
+msgid "Get More Options with Zita Pro!"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:453
+msgid "Upload Logo"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:458
+msgid "Set Colors"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:468
+msgid "Layout Options"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:473
+msgid "Header Options"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:478
+msgid "Blog Layouts"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:483
+msgid "Footer Settings"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:488
+msgid "Sidebar Options"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:508
+msgid "Shop"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:513
+msgid "Scroll to top"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:529
+msgid "Colors & Background"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:555
+msgid "Spacing"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:568
+msgid "Blog Pro"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:582
+msgid "Header Plus"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:595
+msgid "Menu Styles"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:608
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:636
+msgid "Site Layouts"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:649
+msgid "Footer Widgets"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:662
+msgid "Scroll To Top Pro"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:675
+msgid "WooCommerce Plus"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:690
+msgid "White Label"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:704
+msgid "Sticky Footer"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:720
+msgid "Visit to Customizer Settings:"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:814
+msgid "Easy to use, Fully Customizable, Unique options"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:851
+msgid "No plugin specified"
+msgstr ""
+
+#: lib/theme-option/class-zita-admin-settings.php:872
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: searchform.php:11
+msgid "search.."
+msgstr ""
+
+#: template-parts/author-bio.php:18
+msgid "Written by"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-post.php:22
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wpzita.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Zita is a super fast and highly customizable theme. Best Suitable for "
+"creating any type of website such a corporate, store, agency, blog, "
+"portfolio, restaurant, wedding, construction, hospital, school, interior, "
+"car workshop, life coach, wine shop, barber shop, furniture shop, yoga, "
+"resume, charity, digital marketing etc. Zita includes 9 unique header layout "
+"and 8 footer widget layout which makes it extremely powerful. Zita works "
+"with any of your favorite page builder like Elementor, Visual Composer, "
+"Beaver Builder, SiteOrigin, Divi, Brizy etc. Some more amazing feature are "
+"#Woocommerce ready #RTL Ready #Full Responsive #Edit settings in tablet & "
+"mobile #Top header #Bottom header #Top footer #Bottom Footer #Transparent "
+"Header. Looking for perfect base theme? Looking for perfect multipurpose "
+"theme? No need to Look further! Just go with Zita demos:https://wpzita.com/. "
+"Zita is built with best SEO practice and best friend of Woocommerce and "
+"Elementor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WpZita Team"
+msgstr ""

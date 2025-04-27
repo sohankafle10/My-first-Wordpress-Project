@@ -1,0 +1,1439 @@
+/* --------------------------------------
+/* Responsive Menu style
+----------------------------------------*/
+.zita-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;      
+}
+.zita-menu li{
+    list-style: none;
+}
+.zita-menu li ul {
+    display:none;
+}
+.zita-menu > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    float: left;
+}
+.zita-menu li a {
+  color:#555;
+}
+.zita-menu > li > a {
+    display: block;
+    position: relative;
+    margin: 0;
+    border: 0px;
+    padding: 18PX;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+}
+.zita-menu li a i {
+    padding-right: 5px;
+}
+.zita-menu > li > a i {
+    font-size: 16px;
+    text-shadow: none;
+    color: #FF5737;
+}
+.zita-menu li ul.sub-menu li a i {
+    padding-right: 10px;
+}
+.zita-menu li.menu-active > a {
+    color:#13aff0;
+}
+.zita-menu li .menu-active {
+    position: relative;
+}
+.zita-menu > li > a > .arrow:before {  
+    margin-left: 15px;
+    display: inline;
+    font-family: FontAwesome;
+    height: auto;
+    content: "\f107";
+    font-weight: 300;
+    text-shadow: none;
+    width: 10px;
+    display: inline-block;
+}
+.zita-menu li ul.sub-menu li > a > .arrow:before {
+    content: "\f105";
+}
+.zita-menu > li > ul.sub-menu {
+    display: none;
+    list-style: none;
+    clear: both;
+    margin: 0;
+    position: absolute;
+    z-index: 99999;
+}
+.zita-menu li ul.sub-menu {
+    background: #e9f7ff;
+}
+.zita-menu li ul.sub-menu > li {
+    width: 185px;
+}
+.zita-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    background: none;
+}
+.zita-menu > li > ul.sub-menu > li {
+    position: relative;
+        line-height: initial;
+}
+.zita-menu > li > ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    left: 185px;
+    top: 0px;
+    display: none;
+    list-style: none;
+    margin: 0;
+}
+.zita-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    left: 185px;
+    top: 0px;
+    display: none;
+    list-style: none;
+}
+.zita-menu > li > ul.sub-menu li > a > .arrow:before {
+    float: right;
+    margin-top: -2px;
+    margin-right: 0px;
+    display: inline;
+    font-size: 16px;
+    font-family: FontAwesome;
+    height: auto;
+    content: "\f104";
+    font-weight: 300;
+    text-shadow: none;
+}
+#zita-above-menu.zita-menu li ul.sub-menu {
+    text-align: left;
+}
+/* Menu Toggle Btn
+----------------------------------------*/
+.menu-toggle {
+    display: none;
+    width: 100%;
+}
+.menu-toggle h3,.bar-menu-toggle h3 {
+    float: left;
+    color: #FFF;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu-toggle .icon-bar,.bar-menu-toggle .icon-bar {
+    display: block !important;
+    width: 18px;
+    height: 2px;
+    background-color: #F5F5F5;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    margin: 4px;
+}
+.menu-toggle .menu-btn{
+    float: right;
+    background: #202020;
+    border: 1px solid #0C0C0C;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.bar-menu-toggle .menu-btn{
+    background: #202020;
+    border: 1px solid #0C0C0C;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.zita-menu .hide-menu {
+    display: none;
+}
+.menu-close-btn:hover{
+    cursor:pointer;
+}
+
+/*min-bar hamburger menu*/
+.bar-menu-toggle{
+    vertical-align: middle;
+}
+
+.menu-icon-inner {
+    width: 30px;
+    height: 20px;
+    display: block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu-icon-inner {
+    border-bottom: 2px solid;
+    box-sizing: border-box;
+    display:block;
+    position: relative;
+    width: 1.25em;
+    height: 0.9em;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.menu-icon-inner:before {
+    top: 0;
+}
+.menu-icon-inner:before, .menu-icon-inner:after {
+    content: '';
+    display: block;
+    border-top: 2px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all .7s ease;
+    transition-property: transform;
+}
+.menu-icon-inner:after {
+    top: 50%;
+}
+.menu-icon-inner:before, .menu-icon-inner:after {
+    content: '';
+    display: block;
+    border-top: 2px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: all .7s ease;
+    transition-property: transform;
+}
+
+.mobile-pan-active .menu-icon-inner {
+border: none;
+}
+.mobile-pan-active .menu-icon-inner:before {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.mobile-pan-active .menu-icon-inner:before, .mobile-pan-active .menu-icon-inner:after {
+    top: 50%;
+}
+
+.mobile-pan-active .menu-icon-inner:after {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+/* Accordion Menu Styles
+----------------------------------------*/
+
+ul[data-menu-style="accordion"] {
+    width: 250px;
+}
+ul[data-menu-style="accordion"] > li {    
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    float: none !important;
+}
+ul[data-menu-style="accordion"] li ul.sub-menu > li {
+    width: 100%;
+}
+ul[data-menu-style="accordion"] > li > a > .arrow:before {
+    float: right;
+    content: "\f105";
+}
+ul[data-menu-style="accordion"] li.menu-active > a > .arrow:before {
+    content: "\f107" !important;
+}
+ul[data-menu-style="accordion"] > li > ul.sub-menu {
+    position: static;
+}
+ul[data-menu-style="accordion"] > li > a i {
+    padding-right: 10px;
+    color: #FF5737;
+}
+ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu {
+    position: static;
+}
+ul[data-menu-style="accordion"] > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: static;
+}
+ul[data-menu-style="accordion"] > li {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+ul[data-menu-style="accordion"] ul.sub-menu li.menu-active > a > .arrow:before {
+    content: "\f107" !important;
+}
+
+/* Vertical Menu Styles
+----------------------------------------*/
+
+ul[data-menu-style="vertical"] {
+    width: 200px;
+}
+ul[data-menu-style="vertical"] > li {
+    float: none;
+}
+ul[data-menu-style="vertical"] > li:first-child {
+    border-top: 2px solid #FD5025;
+}
+ul[data-menu-style="vertical"] li ul.sub-menu > li {
+    width: 100%;
+}
+ul[data-menu-style="vertical"] > li > a > .arrow:before {
+    float: right;
+    content: "\f105";
+}
+ul[data-menu-style="vertical"] > li.menu-active {
+position:relative;
+}
+ul[data-menu-style="vertical"] > li > ul.sub-menu {
+    position: absolute;
+    left:200px;
+    top:0px;
+    width:200px;
+}
+ul[data-menu-style="vertical"] > li > a i {
+    padding-right: 10px;
+    color: #FF5737;
+}
+ul[data-menu-style="vertical"]> li > ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    width:200px;
+    left: 200px;
+}
+ul[data-menu-style="vertical"] > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    width:200px;
+    left: 200px;
+}
+ul[data-menu-style="vertical"] > li {
+    border-bottom: 1px solid #242424;
+}
+.header-pan-icon{
+    display:none;
+}
+.sider-inner ul#zita-menu,.main-header .menu-all-pages-container ul.zita-menu{ 
+ padding-left:0px;  
+}
+.mobile-menu-active .main-header .sider-inner .menu-all-pages-container ul.zita-menu > li > a:hover{
+    background: transparent;
+}
+/* Responsive Menu Styles
+----------------------------------------*/
+/*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "768" }) function*/
+/****************************/
+/*start hamgurger menu full width*/
+.mhdfull .top-header .menu-toggle,.mhdfull .bottom-header .menu-toggle{
+display:none!important;
+}
+/*****************************/
+.main-header.mhdfull .menu-toggle{
+    display:block!important;
+}
+.mobile-menu-active .mhdfull .sider.zita-menu-hide.left{
+left: -300px;
+right: auto;
+transition: left 0.3s ease;
+}
+.mobile-menu-active .mhdfull .sider.zita-menu-hide.right{
+left: auto;
+right:-300px;
+transition: right 0.3s ease;
+}
+.mobile-menu-active .mhdfull .zita-menu .searchfrom #searchform{
+display:block;
+position: relative;
+}
+.mobile-menu-active .mhdfull .zita-menu  .searchfrom .search-btn{
+display:none;
+}
+.mobile-menu-active .mhdfull li.menu-item.zta-custom-item{
+padding:18px 0px;
+    border: none;
+}
+.mobile-menu-active .mhdfull .zita-menu .searchfrom{
+float:left;
+}
+.main-header.mhdfull .menu-custom-search .content-social ul.social-icon li{
+
+display: -webkit-inline-box;
+}
+
+.main-header.mhdfull .menu-custom-search .content-social ul.social-icon{
+    margin: 0;
+    display: block;
+}
+.main-header.mhdfull .demo{
+        width:96%;
+        padding:2%;
+    }
+    ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
+    ul[data-menu-style="vertical"] li ul.sub-menu {
+        width: 100% !important;
+    } 
+    .main-header.mhdfull .zita-menu {
+        float: left;
+        width:100%;
+    }
+    .main-header.mhdfull .zita-menu > li {
+        border-bottom: 1px solid #eee;
+       float: none;
+    }       
+    .main-header.mhdfull .zita-menu > li > a i {
+        padding-right: 10px;
+        color: #FF5737;
+    }
+    .main-header.mhdfull .zita-menu > li > a > .arrow:before {
+        float: right;
+        content: "\f105";
+    }
+   .main-header.mhdfull .sider.left .zita-menu > li, 
+   .main-header.mhdfull .sider.right .zita-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+    }
+    .main-header.mhdfull .left .menu-item-has-children ul{
+    padding-left:15px;
+    }
+    .main-header.mhdfull .right .menu-item-has-children ul{
+     padding-right:15px;
+     }
+   .main-header.mhdfull .zita-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding: 10px 40px 10px 0px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    background: none;
+}
+   .main-header.mhdfull li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+   .main-header.mhdfull .zita-menu li ul.sub-menu > li {
+        width: 100%;
+    }
+    .main-header.mhdfull .zita-menu li ul.sub-menu li ul.sub-menu li a{
+        padding-left: 30px;
+    }  
+    .mhdfull .zita-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a  {
+        padding-left: 50px;
+    }  
+    .main-header.mhdfull .zita-menu > li > ul.sub-menu {
+        position: static;
+    }
+    .main-header.mhdfull .zita-menu > li > ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .main-header.mhdfull .zita-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .main-header.mhdfull .zita-menu li ul.sub-menu li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+  .main-header.mhdfull .zita-menu > li > a{
+    padding: 10px 40px 10px 0px!important;
+   }   
+/*menu-advance-style*/
+.logged-in.admin-bar .main-header.mhdfull .sider{
+top:32px;
+}
+.main-header.mhdfull .sider.left {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 2em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.main-header.mhdfull .sider.left {
+    left:-280px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+.main-header.mhdfull .sider.left .zita-menu > li,.main-header.mhdfull .sider.right .zita-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+    line-height: initial;
+}
+.mobile-menu-active .main-header.mhdfull .sider.left{
+    left:0px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+body{
+transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.23s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    left: 0;
+}
+/*left-menu*/
+body.slideleftmenu.mobile-menu-active{
+    left: 280px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;
+}
+body.slideleftmenu{
+  left:0px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;  
+}
+body.slideleftmenu.mobile-menu-active:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+/*right-menu*/
+.main-header.mhdfull .sider.right {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 3em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.main-header.mhdfull .sider.right {
+    right:-300px;
+    left: auto;
+    transition:right 0.3s ease;
+}
+.mobile-menu-active .main-header.mhdfull .sider.right{
+    left:auto;
+    right:0;
+    transition: right 0.3s ease;
+}
+body.sliderightmenu.mobile-menu-active{
+    right: 300px;
+    width:100%;
+    left:auto;
+    position:absolute!important;
+    transition:right 0.3s ease;
+}
+body.sliderightmenu{
+    right:0px;
+    left:auto;
+    width:100%;
+    position:absolute!important;
+    transition:right 0.3s ease;  
+}
+body.sliderightmenu.mobile-menu-active:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+.sliderightmenu.mobile-menu-active .menu-toggle .menu-btn{
+    display:none;
+  transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;  
+}
+@-webkit-keyframes bodyfadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+}
+         
+         @keyframes bodyfadeIn{
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+ }
+/*center over menu*/
+.mhdfull.mobile-menu-active .sider.zita-menu-hide.overcenter{
+display:none;
+}
+.mhdfull.mobile-menu-active .sider.overcenter{
+  position:fixed;
+  left:0px;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0 auto;
+  height: 100vh;
+  background:#fff;
+  display:block;
+  z-index: 9999;
+      -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+        -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;
+}
+.mobile-menu-active .main-header.mhdfull .sider.overcenter .zita-menu{
+  float: none;
+  padding-top:50px;
+  max-width:350px;
+  margin:auto;
+}
+.mobile-menu-active .main-header.mhdfull .sider.overcenter .menu-close-btn{
+  margin-top:40px;
+  margin-left:40px;
+}
+.main-header.mhdfull.sider.overcenter{
+   -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;  
+}
+.main-header.mhdfull .overcenter{
+  display:none;  
+}
+ /*close button css*/
+.main-header.mhdfull .menu-close-btn {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.main-header.mhdfull .menu-close-btn{
+margin-top:10px;
+margin-left:10px;
+    width: 14px;
+    display: block;
+    text-decoration: none;
+    top: .75em;
+    right: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    transform-origin: center;
+    transition: all .3s linear;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
+        font-size: 20px;
+        color:#555;
+}
+.main-header.mhdfull .menu-close-btn:before {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    
+}
+.main-header.mhdfull .menu-close-btn:before,.main-header.mhdfull .menu-close-btn:after{
+    content: '';
+    display: block;
+    border-top: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.main-header.mhdfull .menu-close-btn:after{
+-webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.main-header.mhdfull .menu-close-btn:hover{
+-webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+.main-header.mhdfull .menu-toggle .menu-btn{
+display:flex;
+}
+.main-header.mhdfull .menu-toggle .menu-btn span{
+color:#fff;
+}
+.mhdfull .menu-toggle .menu-btn .text span{
+margin-left:5px;
+}
+.main-header.mhdfull .zita-menu.collapse span.arrow{
+    position: absolute;
+    right:20px;
+    height: 100%;
+    width: 30px;
+    top: 0;
+}
+.main-header.mhdfull .zita-menu.collapse li a .arrow:before{
+line-height: 45px;
+    margin-right: 0px;
+}
+.main-header.mhdfull .zita-menu.collapse > li > ul.sub-menu li > a > .arrow:before {
+    margin-right: 10px;
+
+}
+.main-header.mhdfull .sider .sider-inner ul#zita-menu,.main-header.mhdfull .zita-menu li ul.sub-menu{
+    background:transparent;
+}
+.main-header.mhdfull .sider .sider-inner ul#zita-menu.zita-menu > li > a:hover{
+   background:transparent;
+}
+.main-header.mhdfull .sider.left .zita-menu > li, .main-header.mhdfull .sider.right .zita-menu > li{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.main-header.mhdfull .right .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.main-header.mhdfull .left .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    right: 0;
+}
+.main-header.mhdfull .sider.overcenter ul#zita-menu{
+display:block;
+}
+/****************************/
+/*end hamburger menu*/
+/****************************/
+@media screen and (max-width: 1024px){
+    .zita-menu li,
+    .zita-menu a{
+        position: relative;
+    }
+.mhdfull .top-header .menu-toggle,
+.mhdfull .bottom-header .menu-toggle{
+display:block!important;
+}
+.mobile-above-menu-active .sider.zita-menu-hide.left,
+.mobile-menu-active .sider.zita-menu-hide.left,
+.mobile-bottom-menu-active .sider.zita-menu-hide.left{
+left: -300px;
+right: auto;
+transition: left 0.3s ease;
+}
+.mobile-above-menu-active .sider.zita-menu-hide.right,
+.mobile-menu-active .sider.zita-menu-hide.right,
+.mobile-bottom-menu-active .sider.zita-menu-hide.right{
+left: auto;
+right:-300px;
+transition: right 0.3s ease;
+}
+.mobile-menu-active .zita-menu .searchfrom #searchform{
+display:block;
+position: relative;
+}
+.mobile-menu-active .zita-menu  .searchfrom .search-btn{
+display:none;
+}
+.mobile-menu-active li.menu-item.zta-custom-item{
+padding:18px 0px;
+    border: none;
+}
+.mobile-menu-active .zita-menu .searchfrom{
+float:left;
+}
+.main-header .menu-custom-search .content-social ul.social-icon li{
+
+display: -webkit-inline-box;
+}
+
+.main-header .menu-custom-search .content-social ul.social-icon{
+    margin: 0;
+    display: block;
+}
+.demo{
+		width:96%;
+		padding:2%;
+    }
+    ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
+    ul[data-menu-style="vertical"] li ul.sub-menu {
+        width: 100% !important;
+    } 
+    .zita-menu {
+        float: left;
+        width:100%;
+    }
+    .zita-menu > li {
+        border-bottom: 1px solid #eee;
+        position:relative;
+       float: none;
+    }       
+    .zita-menu > li > a i {
+        padding-right: 10px;
+        color: #FF5737;
+    }
+    .zita-menu > li > a > .arrow:before,
+    .zita-menu.collapse > li > ul.sub-menu li > a > .arrow:before {
+        float: right;
+        content: "\f107";
+    }
+.sider.left .zita-menu > li, .sider.right .zita-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+}
+.left .menu-item-has-children ul{
+padding-left:15px;
+}
+.right .menu-item-has-children ul{
+padding-right:15px;
+}
+.zita-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding: 10px 40px 10px 0px!important;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    background: none;
+}
+    li.menu-active > a > .arrow:before {
+        content: "\f106";
+    }
+    .zita-menu li ul.sub-menu > li {
+        width: 100%;
+    }
+    .zita-menu li ul.sub-menu li ul.sub-menu li a{
+        padding-left: 30px;
+    }  
+    .zita-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a  {
+        padding-left: 50px;
+    }  
+    .zita-menu > li > ul.sub-menu {
+        position: static;
+    }
+    .zita-menu > li > ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .zita-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .zita-menu li ul.sub-menu li.menu-active > a > .arrow:before {
+        content: "\f106";
+    }
+  .zita-menu > li > a,.top-header-bar .zita-menu > li > a, 
+    .bottom-header-bar .zita-menu > li > a {
+    padding: 10px 40px 10px 0px!important;
+   }   
+.top-header-bar.abv-two .top-header-col1 .menu-toggle .menu-btn,
+.top-header-bar.abv-three .top-header-col1 .menu-toggle .menu-btn,
+.bottom-header-bar.btm-two .bottom-header-col1 .menu-toggle .menu-btn,
+.bottom-header-bar.btm-three .bottom-header-col1 .menu-toggle .menu-btn{
+float:left;
+}
+/*menu-advance-style*/
+.logged-in.admin-bar .sider{
+top:32px;
+}
+.sider.left {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 2em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.sider.left {
+    left:-280px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+.sider.left .zita-menu > li,.sider.right .zita-menu > li {
+    border-bottom: 1px solid #eee;
+    float: none;
+    line-height: initial;
+}
+.mobile-menu-active .sider.left,
+.mobile-above-menu-active .sider.left,
+.mobile-bottom-menu-active .sider.left{
+    left:0px;
+    right: auto;
+    transition: left 0.2s ease;
+}
+body{
+transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.23s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    left: 0;
+}
+/*left-menu*/
+body.slideleftmenu.mobile-menu-active,
+body.slideleftmenu.mobile-above-menu-active,
+body.slideleftmenu.mobile-bottom-menu-active{
+    left: 280px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;
+}
+body.slideleftmenu{
+  left:0px;
+    width:100%;
+    position:absolute!important;
+    transition: left 0.3s ease;  
+}
+body.slideleftmenu.mobile-menu-active:before,
+body.slideleftmenu.mobile-above-menu-active:before,
+body.slideleftmenu.mobile-bottom-menu-active:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+/*right-menu*/
+.sider.right {
+    display: block;
+    position: fixed;
+    top: 0;
+        height: 100vh;
+    z-index: 999999;
+    width: 280px;
+    padding: 3em 1.5em;
+    max-width: 100%;
+    border-right: 1px solid rgba(0,0,0,.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 15px;
+    background-color: #fff;
+    color: #555;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+.sider.right {
+    right:-300px;
+    left: auto;
+    transition:right 0.3s ease;
+}
+.mobile-menu-active .sider.right,
+.mobile-above-menu-active .sider.right,
+.mobile-bottom-menu-active .sider.right {
+    left:auto;
+    right:0;
+    transition: right 0.3s ease;
+}
+body.sliderightmenu.mobile-menu-active,
+body.sliderightmenu.mobile-above-menu-active,
+body.sliderightmenu.mobile-bottom-menu-active{
+    right: 300px;
+    width:100%;
+    left:auto;
+    position:absolute!important;
+    transition:right 0.3s ease;
+}
+body.sliderightmenu{
+    right:0px;
+    left:auto;
+    width:100%;
+    position:absolute!important;
+    transition:right 0.3s ease;  
+}
+body.sliderightmenu.mobile-menu-active:before,
+body.sliderightmenu.mobile-above-menu-active:before,
+body.sliderightmenu.mobile-bottom-menu-active:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+        z-index: 999;
+    background:rgba(0,0,0,0.3);
+     -webkit-animation-name: bodyfadeIn;
+            animation-name: bodyfadeIn;
+            
+}
+.sliderightmenu.mobile-menu-active .menu-toggle .menu-btn,
+.sliderightmenu.mobile-above-menu-active .menu-toggle .menu-btn,
+.sliderightmenu.mobile-bottom-menu-active .menu-toggle .menu-btn{
+    display:none;
+  transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;  
+}
+@-webkit-keyframes bodyfadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+}
+         
+         @keyframes bodyfadeIn{
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+ }
+
+ /*center over menu*/
+.mobile-above-menu-active .sider.zita-menu-hide.overcenter,
+.mobile-menu-active .sider.zita-menu-hide.overcenter,
+.mobile-bottom-menu-active .sider.zita-menu-hide.overcenter{
+display:none;
+}
+ .mobile-menu-active .sider.overcenter,
+ .mobile-above-menu-active .sider.overcenter,
+ .mobile-bottom-menu-active .sider.overcenter{
+  position:fixed;
+  left:0px;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0 auto;
+  height: 100vh;
+  background:#fff;
+  display:block;
+  z-index: 9999;
+      -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+        -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;
+}
+.mobile-menu-active .sider.overcenter .zita-menu,
+.mobile-above-menu-active .sider.overcenter .zita-menu,
+ .mobile-bottom-menu-active .sider.overcenter .zita-menu {
+  float: none;
+  padding-top:50px;
+  max-width: 350px;
+  margin:auto;
+}
+.mobile-menu-active .sider.overcenter .menu-close-btn,
+.mobile-above-menu-active .sider.overcenter .menu-close-btn,
+.mobile-bottom-menu-active .sider.overcenter .menu-close-btn{
+  margin-top:40px;
+  margin-left:40px;
+}
+.sider.overcenter{
+   -webkit-animation: bodyfadeIn .3s;
+    -moz-animation: bodyfadeIn .3s;
+    -ms-animation: bodyfadeIn .3s;
+    -o-animation: bodyfadeIn .3s;
+    animation: bodyfadeIn .3s;  
+}
+.sider.overcenter .menu-close{
+text-align: -webkit-right;
+    margin-right: 40px;
+}
+.overcenter{
+  display:none;  
+}
+ /*close button css*/
+ .menu-close-btn {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-close-btn{
+margin-top:10px;
+margin-left:10px;
+    width: 14px;
+    display: block;
+    text-decoration: none;
+    top: .75em;
+    right: 1em;
+    min-width: 1em;
+    min-height: 1em;
+    transform-origin: center;
+    transition: all .3s linear;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
+        font-size: 20px;
+        color:#555;
+}
+.menu-close-btn:before {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    
+}
+.menu-close-btn:before,.menu-close-btn:after{
+    content: '';
+    display: block;
+    border-top: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.menu-close-btn:after{
+-webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.menu-close-btn:hover{
+-webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+}
+/*left pan*/
+.mhdrleftpan .sider{
+left:0;
+position: inherit;
+}
+header.mhdrleftpan .container,
+header.mhdrrightpan .container{
+    width:100%;
+    max-width: 100%;
+    padding:0;
+    margin:0;
+}
+.mhdrleft .zita-menu {
+    padding-left:0!important;
+}
+.mhdrleftpan .sider .hide-menu,.mhdrrightpan .sider .hide-menu{
+display:block;
+}
+.mhdrleftpan .menu-toggle,
+.mhdrrightpan .menu-toggle{
+display:none!important;
+}
+.mhdrleftpan .sider .menu-close-btn,
+.mhdrrightpan .sider .menu-close-btn{
+display:none;
+}
+.mhdrleftpan .sider.left,
+.mhdrleftpan .sider.right,
+.mhdrrightpan .sider.left,
+.mhdrrightpan .sider.right{
+width: 100%;
+max-width: 100%;
+padding-bottom:0;
+    height: auto;
+}
+.mhdrleftpan .sider.overcenter,
+.mhdrrightpan .sider.overcenter{
+    display: block;
+}
+body.mobile-pan-active{overflow-x: hidden;}
+/*right pan*/
+.mhdrrightpan .sider{
+right:0;
+left:auto;
+position: inherit;
+}
+.mhdrright .zita-menu {
+    padding-right:0!important;
+}
+.mhdrrightpan .container{
+    width:100%;
+    max-width: 100%;
+    padding:0;
+    margin:0;
+}
+.menu-toggle .menu-btn{
+display:flex;
+}
+.menu-toggle .menu-btn span{
+color:#fff;
+}
+.menu-toggle .menu-btn .text span,.bar-menu-toggle .menu-btn .text span{
+margin-left:5px;
+}
+.zita-menu.collapse span.arrow{
+    position: absolute;
+    right:20px;
+    height: 100%;
+    width: 30px;
+    top: 0;
+}
+.zita-menu.collapse li a .arrow:before{
+line-height: 45px;
+    margin-right: 0px;
+}
+.zita-menu.collapse > li > ul.sub-menu li > a > .arrow:before{
+    margin-right: 10px;
+
+}
+.sider .sider-inner ul#zita-menu,.zita-menu li ul.sub-menu{
+    background:transparent;
+}
+.sider  .sider-inner ul#zita-menu.zita-menu > li > a:hover{
+   background:transparent;
+}
+.sider.left .zita-menu > li, .sider.right .zita-menu > li{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.right .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    background: #fff;
+    left: 0;
+}
+.left .menu-close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    background:transparent;
+    right: 0;
+}
+.sider.overcenter ul#zita-menu{
+display:block;
+}
+.mhdrleftpan .menu-close,
+.mhdrrightpan .menu-close{
+display:none;
+  }
+}
+@media screen and (max-width: 782px){
+    .logged-in.admin-bar .sider{
+    padding-top:42px;
+    }
+}
+@media screen and (max-width: 768px){
+/*mobile pan style*/
+.header-pan-icon{
+    display: block;
+}
+.mhdrleftpan .header-pan-icon span{
+    position: fixed;
+    top: 10%;
+    left: 0;
+    background-color: #008ec2;
+    color: #fff;
+    font-size: 1.2em;
+    width:30px;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    z-index: 10000;
+    -webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mhdrrightpan .header-pan-icon span{
+left:auto;
+right:0;
+position: fixed;
+    top: 10%;
+    background-color: #008ec2;
+    color: #fff;
+    font-size: 1.2em;
+    width:30px;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    z-index: 10000;
+    -webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.mobile-pan-active .mhdrleftpan .header-pan-icon span {
+    left: 270px;
+}
+.mobile-pan-active .mhdrrightpan .header-pan-icon span {
+    left: auto;
+    right:270px;
+}
+.mhdrleftpan #page.zita-site{
+margin-left:auto!important;
+}
+.mhdrrightpan #page.zita-site{
+margin-right:auto!important;
+}
+ header.mhdrleftpan{
+left: -270px!important;
+right: auto;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+header.mhdrrightpan{
+right: -270px!important;
+left: auto;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.mobile-pan-active header.mhdrleftpan{
+left: 0px!important;
+right: auto;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mobile-pan-active header.mhdrrightpan{
+right: 0px!important;
+left: auto;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.mhdrleftpan #page.zita-site {
+left:0px!important;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mhdrrightpan #page.zita-site {
+right:0px!important;
+-webkit-transition:  right .2s ease-in-out;
+    -moz-transition:  right .2s ease-in-out;
+    transition:  right .2s ease-in-out;
+}
+.mobile-pan-active.mhdrleftpan #page.zita-site {
+left:270px!important;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+.mobile-pan-active.mhdrrightpan #page.zita-site {
+right:270px!important;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.zita-site .mhdrleftpan .pan-icon:before{
+content: "\f101";
+font-family:FontAwesome;
+}
+.mobile-pan-active .zita-site .mhdrleftpan .pan-icon:before{
+content: "\f100";
+font-family:FontAwesome;
+}
+.zita-site .mhdrrightpan .pan-icon:before{
+content: "\f100";
+font-family:FontAwesome;
+}
+.mobile-pan-active .zita-site .mhdrrightpan .pan-icon:before{
+content: "\f101";
+font-family:FontAwesome;
+}
+.mhdrleftpan .site-content #primary,
+.mhdrrightpan .site-content #primary {
+    margin: 0px;
+}
+ header.mhdrleftpan .zita-cart{
+left: -270px!important;
+right: auto;
+-webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+}
+header.mhdrrightpan .zita-cart{
+right: -270px!important;
+left: auto;
+-webkit-transition: right .2s ease-in-out;
+    -moz-transition: right .2s ease-in-out;
+    transition: right .2s ease-in-out;
+}
+.cart-pan-active header.mhdrleftpan .zita-cart{
+left: 0px!important;
+right:auto;
+}
+.cart-pan-active header.mhdrrightpan .zita-cart{
+right: 0px!important;
+left: auto;
+}
+}
+@media screen and (max-width:544px) {
+/*inline menu*/
+.inline .zita-logo img{
+height:auto;
+ }
+.inline .two .main-header-container {
+    flex-wrap: nowrap;
+}
+ .mhdrcenter.inline .two .main-header-container {
+    flex-wrap: wrap;
+}
+.stack .two .main-header-col1,
+.stack .two .main-header-col2{
+justify-content: center;
+text-align:center;
+width:100%;
+}
+.stack .zita-menu .menu-custom-search{
+text-align:left;    
+}
+.main-header.mhdrright.stack .two .main-header-col1{
+text-align:center;
+}
+
+.main-header.mhdrright .two .main-header-col2{
+justify-content: center;
+}
+}

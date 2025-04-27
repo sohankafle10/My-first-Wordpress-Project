@@ -1,0 +1,60 @@
+/*start zita post meta box style*/
+#zita-meta-box .post-attributes-label{
+margin-bottom:8px;
+}
+#zita-meta-box .post-attributes-setting{
+margin-top:0px;
+}
+#zita-meta-box select{
+width:100%;
+}
+/*end zita post meta box style*/
+
+/*Branding Page*/
+.ast-branding-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 0;
+}
+.ast-branding-list,
+.ast-branding-list * {
+    box-sizing: border-box;
+}
+.ast-branding-list li {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    padding: 0.7em;
+}
+.ast-branding-list li:nth-child(odd){
+    padding-left: 0;
+}
+.ast-branding-list li:nth-child(even){
+    padding-right: 0;
+}
+.ast-branding-list li:nth-child(1),
+.ast-branding-list li:nth-child(2){
+    padding-top: 0;
+}
+
+.ast-branding-list .branding-form{
+    margin-bottom: 0;
+}
+@media (max-width: 1024px) {
+    .ast-branding-list li {
+        display: block;
+        width: 100%;
+        padding: 0.5em;
+    }
+    .ast-branding-list li:nth-child(odd){
+        padding:0 0.5em 1em 0;
+    }
+    .ast-branding-list li:nth-child(even){
+        padding:0 0.5em 1em 0;
+    }
+    .ast-branding-list li:nth-child(1),
+    .ast-branding-list li:nth-child(2){
+        padding:0 0.5em 1em 0;
+    }
+}
